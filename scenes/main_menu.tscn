@@ -98,12 +98,16 @@ layout_mode = 2
 
 [node name="EditAvatar" type="Button" parent="Control/Center/MarginContainer/VBoxContainer/MarginContainer/MainBox/Avatar/MarginContainer/VBoxContainer" unique_id=1344461631]
 layout_mode = 2
+tooltip_text = "To soft edit your 
+current avatar."
 text = "Edit"
 
 [node name="ImportAvatar" type="Button" parent="Control/Center/MarginContainer/VBoxContainer/MarginContainer/MainBox/Avatar/MarginContainer/VBoxContainer" unique_id=1584151902]
 layout_mode = 2
+tooltip_text = "Import your custom avatar/character model to make it even more interesting."
 text = "Import"
 
 [node name="Store" type="Button" parent="Control/Center/MarginContainer/VBoxContainer/MarginContainer/MainBox/Avatar/MarginContainer/VBoxContainer" unique_id=1107484222]
 layout_mode = 2
+tooltip_text = "Checkout our store for more avatar/character models, Community models and soo more..."
 text = "Store"
