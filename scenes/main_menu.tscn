@@ -103,3 +103,7 @@ text = "Edit"
 [node name="ImportAvatar" type="Button" parent="Control/Center/MarginContainer/VBoxContainer/MarginContainer/MainBox/Avatar/MarginContainer/VBoxContainer" unique_id=1584151902]
 layout_mode = 2
 text = "Import"
+
+[node name="Store" type="Button" parent="Control/Center/MarginContainer/VBoxContainer/MarginContainer/MainBox/Avatar/MarginContainer/VBoxContainer" unique_id=1107484222]
+layout_mode = 2
+text = "Store"
