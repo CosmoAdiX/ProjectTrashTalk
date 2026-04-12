@@ -30,4 +30,6 @@ layout_mode = 2
 
 [node name="Label" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer" unique_id=1807486420]
 layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
 text = "Host Lobby"
