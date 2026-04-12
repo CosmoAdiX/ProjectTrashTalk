@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://xmpjpx0p1lfq"]
 
+[ext_resource type="Script" uid="uid://bqwlousvvb3oo" path="res://scenes/host_menu.gd" id="1_4exjk"]
+
 [node name="HostMenu" type="CanvasLayer" unique_id=809914078]
+script = ExtResource("1_4exjk")
 
 [node name="HostBox" type="Control" parent="." unique_id=53523045]
 layout_mode = 3
@@ -36,3 +39,12 @@ text = "Host Lobby"
 
 [node name="HSeparator" type="HSeparator" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer" unique_id=1559442569]
 layout_mode = 2
+
+[node name="Back" type="Button" parent="HostBox" unique_id=1261991675]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 28.0
+offset_top = 32.0
+offset_right = 123.0
+offset_bottom = 69.0
+text = "Back"

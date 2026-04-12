@@ -1,5 +1,6 @@
 
 extends CanvasLayer
+class_name MainMenu
 
 @onready var host_button: Button = %Host
 @onready var exit_button: Button = %Exit
