@@ -4,8 +4,5 @@ extends CanvasLayer
 
 func _ready() -> void:
 	
-	back_button_host.pressed.connect(on_back_pressed)
-	
-func on_back_pressed():
-	get_tree().current_scene.remove_child()
+	back_button_host.pressed.connect(func(): SceneManager.pop_screen())
 	
