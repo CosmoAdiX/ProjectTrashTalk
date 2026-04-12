@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://dfeitlh416afg"]
 
+[ext_resource type="Script" uid="uid://dtqtkt4tm3dd2" path="res://scenes/main_menu.gd" id="1_l6cm7"]
+
 [node name="MainMenu" type="CanvasLayer" unique_id=484238160]
+script = ExtResource("1_l6cm7")
 
 [node name="Control" type="Control" parent="." unique_id=138917693]
 layout_mode = 3
@@ -75,6 +78,7 @@ layout_mode = 2
 text = "Credits"
 
 [node name="Exit" type="Button" parent="Control/Center/MarginContainer/VBoxContainer/MarginContainer/MainBox/BoxContainer" unique_id=965880661]
+unique_name_in_owner = true
 layout_mode = 2
 text = "Exit"
 
