@@ -33,3 +33,6 @@ layout_mode = 2
 size_flags_horizontal = 4
 theme_override_font_sizes/font_size = 40
 text = "Host Lobby"
+
+[node name="HSeparator" type="HSeparator" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer" unique_id=1559442569]
+layout_mode = 2
