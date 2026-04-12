@@ -11,7 +11,7 @@ const Screens = {
 func register_main_menu(node: CanvasLayer):
 	main_menu = node
 	
-#Push a new scree on top of the current ui
+#Push a new screen on top of the current ui
 func push_screen(screen_name: String):
 	if screen_stack.is_empty():
 		main_menu.hide()
