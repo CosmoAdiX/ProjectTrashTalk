@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 GlobalManager="*uid://cfot2t7ak2xqt"
 SceneManager="*uid://bm3x22d6onndt"
+NetworkManager="*uid://0unh5s7utupy"
 
 [editor_plugins]
 
