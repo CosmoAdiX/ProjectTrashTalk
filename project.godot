@@ -20,6 +20,10 @@ config/icon="res://icon.svg"
 GlobalManager="*uid://cfot2t7ak2xqt"
 SceneManager="*uid://bm3x22d6onndt"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godotsteam/plugin.cfg")
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
@@ -27,3 +31,10 @@ SceneManager="*uid://bm3x22d6onndt"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+
+[steam]
+
+initialization/app_id=0
+initialization/initialize_on_startup=false
+initialization/embed_callbacks=false
+multiplayer_peer/max_channels=4
