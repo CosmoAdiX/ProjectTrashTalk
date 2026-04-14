@@ -31,7 +31,7 @@ func _process(_delta: float) -> void:
 
 func host_game(lobby_name: String, player_amount: int, lobby_type: int):
 	print("Attempting To Host...")
-	
+	var bro: String
 	_pending_lobby_name = lobby_name
 	_pending_player_amount = player_amount
 	_pending_lobby_type = lobby_type
