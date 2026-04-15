@@ -45,7 +45,19 @@ layout_mode = 2
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Label" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=449572371]
+[node name="Panel" type="Panel" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=1710990231]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 10.0
+offset_right = -769.0
+offset_bottom = -49.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=449572371]
 layout_mode = 0
 offset_left = 19.0
 offset_top = 28.0
@@ -53,7 +65,7 @@ offset_right = 129.0
 offset_bottom = 51.0
 text = "Lobby's Name"
 
-[node name="LobbyName" type="LineEdit" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=1201624108]
+[node name="LobbyName" type="LineEdit" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=1201624108]
 unique_name_in_owner = true
 layout_mode = 0
 offset_left = 19.0
@@ -62,14 +74,14 @@ offset_right = 296.0
 offset_bottom = 93.0
 max_length = 40
 
-[node name="HSeparator" type="HSeparator" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=1715856157]
+[node name="HSeparator" type="HSeparator" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=1715856157]
 layout_mode = 0
 offset_left = 19.0
 offset_top = 108.0
 offset_right = 297.0
 offset_bottom = 112.0
 
-[node name="Label2" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=1283116370]
+[node name="Label2" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=1283116370]
 layout_mode = 0
 offset_left = 19.0
 offset_top = 120.0
@@ -77,7 +89,7 @@ offset_right = 133.0
 offset_bottom = 143.0
 text = "No. Of Players:"
 
-[node name="Label4" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=696020830]
+[node name="Label4" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=696020830]
 layout_mode = 0
 offset_left = 92.0
 offset_top = 153.0
@@ -87,7 +99,7 @@ theme_override_colors/font_color = Color(0.32172796, 0.32172796, 0.32172796, 1)
 theme_override_font_sizes/font_size = 12
 text = "~max 32"
 
-[node name="PlayerAmount" type="LineEdit" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=1691310780]
+[node name="PlayerAmount" type="LineEdit" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=1691310780]
 unique_name_in_owner = true
 layout_mode = 0
 offset_left = 19.0
@@ -96,14 +108,14 @@ offset_right = 87.5
 offset_bottom = 178.0
 max_length = 2
 
-[node name="HSeparator2" type="HSeparator" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=1577308691]
+[node name="HSeparator2" type="HSeparator" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=1577308691]
 layout_mode = 0
 offset_left = 19.0
 offset_top = 180.0
 offset_right = 297.0
 offset_bottom = 184.0
 
-[node name="Label3" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=2001289368]
+[node name="Label3" type="Label" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=2001289368]
 layout_mode = 0
 offset_left = 19.0
 offset_top = 192.0
@@ -111,7 +123,7 @@ offset_right = 133.0
 offset_bottom = 241.0
 text = "Lobby type"
 
-[node name="LobbyType" type="OptionButton" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=1027764273]
+[node name="LobbyType" type="OptionButton" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=1027764273]
 unique_name_in_owner = true
 layout_mode = 0
 offset_left = 117.0
@@ -124,7 +136,7 @@ popup/item_0/id = 0
 popup/item_1/text = "Private"
 popup/item_1/id = 1
 
-[node name="HostButton" type="Button" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel" unique_id=1553433679]
+[node name="HostButton" type="Button" parent="HostBox/PanelContainer/MarginContainer/VBoxContainer/Panel/Panel" unique_id=1553433679]
 unique_name_in_owner = true
 layout_mode = 0
 offset_left = 30.0
