@@ -1,1 +1,1 @@
-# Voice-chat based competitive multiplayer game.
+# Voice-chat based competitive multiplayer game
